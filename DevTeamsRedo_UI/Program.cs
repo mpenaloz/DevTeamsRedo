@@ -10,6 +10,12 @@ namespace DevTeamsRedo_UI
     {
         static void Main(string[] args)
         {
+            var myTeamRepo = new Dev_TeamRepo();
+            ProgramUI ui = new ProgramUI(myTeamRepo);
+            ui.Run();
+
+
+
         }
     }
 }
